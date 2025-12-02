@@ -34,10 +34,7 @@ export const Hero = () => {
               className="space-y-2"
             >
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-black tracking-tight uppercase">
-                I AM
-              </h2>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-black tracking-tight uppercase">
-                SHAFAITUL
+                I'm RUDRO
               </h2>
             </motion.div>
 
@@ -80,7 +77,7 @@ export const Hero = () => {
             className="order-1 lg:order-2 flex justify-center lg:justify-end"
           >
             <div className="relative">
-              <div className="w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden shadow-card">
+              <div className="w-72 h-72 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden shadow-card bg-primary/20">
                 <img
                   src={profilePhoto}
                   alt="Shafaitul Kabir Rudro"
