@@ -32,7 +32,7 @@ const experiences = [
 
 const volunteerWork = [
   '17th Convocation of BRAC University',
-  'Inter-University Programming Contests',
+  'Bit Battle: Inter-University Programming Contest',
   'Research Exhibitions & Symposiums',
   'Student Orientation Programs',
 ];
