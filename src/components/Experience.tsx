@@ -31,7 +31,7 @@ const experiences = [
 ];
 
 const volunteerWork = [
-  'University Convocation Programs',
+  '17th Convocation of BRAC University',
   'Inter-University Programming Contests',
   'Research Exhibitions & Symposiums',
   'Student Orientation Programs',
