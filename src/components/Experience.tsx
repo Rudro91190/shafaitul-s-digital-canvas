@@ -34,7 +34,7 @@ const volunteerWork = [
   '17th Convocation of BRAC University',
   'Bit Battle: Intra-University Programming Contest',
   'Extendiars: Research Exhibition and Symposiums. Showing Innovation for Sustainable Development',
-  'Student Orientation Programs',
+  "Freshers Orientation Fall'25 of BRAC University",
 ];
 
 export const Experience = () => {
