@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { ExternalLink, Code, Bot, Cog } from 'lucide-react';
+import cansatImage from '@/assets/cansat-project.jpg';
+import commutesyncImage from '@/assets/commutesync-project.jpg';
 
 const projects = [
   {
@@ -24,6 +26,7 @@ const projects = [
     category: 'Software',
     technologies: ['Web Development', 'GPS', 'Real-time Data'],
     icon: Code,
+    image: commutesyncImage,
   },
   {
     title: 'CanSat (Nano Satellite)',
@@ -31,6 +34,7 @@ const projects = [
     category: 'Robotics',
     technologies: ['Embedded Systems', 'Sensors', 'Arduino'],
     icon: Bot,
+    image: cansatImage,
   },
   {
     title: 'SoccerBot',
@@ -109,10 +113,18 @@ export const Projects = () => {
               className="group bg-background rounded-3xl overflow-hidden shadow-soft border border-border hover:shadow-card transition-all duration-500"
             >
               <div className="h-48 bg-gradient-to-br from-secondary to-muted flex items-center justify-center relative overflow-hidden">
-                <project.icon 
-                  size={64} 
-                  className="text-muted-foreground/30 group-hover:text-primary/50 transition-colors duration-300" 
-                />
+                {project.image ? (
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <project.icon 
+                    size={64} 
+                    className="text-muted-foreground/30 group-hover:text-primary/50 transition-colors duration-300" 
+                  />
+                )}
                 <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
               </div>
               
