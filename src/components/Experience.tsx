@@ -35,6 +35,9 @@ const volunteerWork = [
   'Bit Battle: Intra-University Programming Contest',
   'Extendiars: Research Exhibition and Symposiums. Showing Innovation for Sustainable Development',
   "Freshers Orientation Fall'25 of BRAC University",
+  "University Club Fair: Fall'24, Spring'25, Summer'25, Fall'25",
+  'International Biotechnology Conference 2025',
+  'And many other club events volunteer',
 ];
 
 export const Experience = () => {
