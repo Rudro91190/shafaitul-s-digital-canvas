@@ -43,6 +43,7 @@ const projects = [
     category: 'Robotics',
     technologies: ['Computer Vision', 'Robotics', 'Control Systems'],
     icon: Bot,
+    image: soccerbotImage,
   },
   {
     title: 'Line Follower Robot',
