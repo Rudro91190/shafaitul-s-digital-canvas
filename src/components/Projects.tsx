@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import { ExternalLink, Code, Bot, Cog } from 'lucide-react';
 import cansatImage from '@/assets/cansat-project.jpg';
 import commutesyncImage from '@/assets/commutesync-project.jpg';
+import soccerbotImage from '@/assets/soccerbot-project.jpg';
 
 const projects = [
   {
@@ -42,6 +43,7 @@ const projects = [
     category: 'Robotics',
     technologies: ['Computer Vision', 'Robotics', 'Control Systems'],
     icon: Bot,
+    image: soccerbotImage,
   },
   {
     title: 'Line Follower Robot',
