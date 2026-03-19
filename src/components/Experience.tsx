@@ -22,7 +22,7 @@ const experiences = [
   },
   {
     title: 'Junior Executive',
-    organization: 'BRAC University Robotics Club',
+    organization: 'Robotics Club of BRAC University',
     department: 'Event Management',
     description: 'Contributing to robotics events organization and promoting technical education within the university.',
     icon: Bot,
