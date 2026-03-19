@@ -9,6 +9,7 @@ const technicalSkills = [
   { name: 'SQL', level: 75 },
   { name: 'Robotics', level: 85 },
   { name: 'Automation', level: 80 },
+  { name: 'C Programming', level: 70 },
 ];
 
 const softSkills = [
