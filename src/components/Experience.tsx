@@ -5,7 +5,7 @@ import { Users, Camera, Bot, Calendar } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Senior Executive',
+    title: 'Assistant Director',
     organization: 'BRAC University Computer Club',
     department: 'Event Management Department',
     description: 'Planning and executing technical and academic events, coordinating with team members and stakeholders.',
@@ -21,7 +21,7 @@ const experiences = [
     type: 'leadership',
   },
   {
-    title: 'General Member',
+    title: 'Junior Executive',
     organization: 'BRAC University Robotics Club',
     department: 'Event Management',
     description: 'Contributing to robotics events organization and promoting technical education within the university.',
