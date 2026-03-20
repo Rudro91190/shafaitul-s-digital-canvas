@@ -4,10 +4,10 @@ import { useRef } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Facebook, Instagram } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
-  { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
+  { icon: Github, href: 'https://github.com/Rudro91190', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/shafaitul-kabir-rudro-7082212aa/', label: 'LinkedIn' },
+  { icon: Facebook, href: 'https://web.facebook.com/shafaitul.kabir.rudro004', label: 'Facebook' },
+  { icon: Instagram, href: 'https://www.instagram.com/zz_rudro_zz/?hl=en', label: 'Instagram' },
 ];
 
 export const Contact = () => {
